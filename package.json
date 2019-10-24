@@ -1,0 +1,22 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyandell83/advanced-css-project-1.git"
+  },
+  "author": "Jeremy Yandell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyandell83/advanced-css-project-1/issues"
+  },
+  "homepage": "https://github.com/jyandell83/advanced-css-project-1#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
