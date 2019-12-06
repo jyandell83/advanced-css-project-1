@@ -542,17 +542,33 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all .4s .2s; }
+    @media (max-width: 56.25em) {
+      .popup__content {
+        display: block; } }
   .popup__left {
     width: 33.333333333%;
     display: table-cell; }
+    @media (max-width: 56.25em) {
+      .popup__left {
+        display: flex;
+        width: 100%;
+        padding: 0;
+        justify-content: stretch; } }
   .popup__right {
     width: 66.666666667%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 4rem; }
+    @media (max-width: 56.25em) {
+      .popup__right {
+        display: block;
+        width: 100%; } }
   .popup__img {
     display: block;
     width: 100%; }
+    @media (max-width: 56.25em) {
+      .popup__img {
+        width: 50%; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
