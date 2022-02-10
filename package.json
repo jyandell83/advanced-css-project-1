@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/jyandell83/advanced-css-project-1#readme",
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   }
 }
